@@ -1,4 +1,4 @@
-const ItemModel = require("../models/itemModel");
+const ItemModel = require("../modes/itemModel");
 
 // GET all items
 const getAllItems = (req, res, next) => {

@@ -1,7 +1,8 @@
 const express = require("express");
 const itemRoutes = require("./routes/itemRoutes");
 const notFound = require("./middlewares/notFound");
-const errorHandler = require("./middlewares/errorHandler");
+const errorHandler = require("./middlewares/errorHandeler");
+
 
 const app = express();
 
